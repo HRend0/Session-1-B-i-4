@@ -1,12 +1,12 @@
 # Session-1-B-i-4
 [Bài tập] Hệ thống Quản lý Lớp học Trực tuyến
 Bài 1:
-- Các thực thể: Người dùng (NguoiDung), Khóa học (KhoaHoc), Danh mục khóa học (DanhMucKhoaHoc), Giảng viên (GiangVien), Bài học (BaiHoc), Bài kiểm tra (BaiKiemTra), Kết quả (KetQua), Đăng ký học (DangKyHoc) - Thực thể yếu.
+- Các thực thể: Người dùng (NguoiDung), Khóa học (KhoaHoc), Danh mục khóa học (DanhMucKhoaHoc), Giảng viên (GiangVien), Học viên (HocVien), Bài học (BaiHoc), Bài kiểm tra (BaiKiemTra), Kết quả (KetQua), Đăng ký học (DangKyHoc) - Thực thể yếu.
 - Thuộc tính:
   + NguoiDung: mã người dùng, họ tên, email, mật khẩu, vai trò (student/instructor/admin).
   + KhoaHoc: mã khóa, tên, mô tả, cấp độ, giá, ngày phát hành.
   + DanhMucKhoaHoc: mã danh mục, tên danh mục.
-  + GiangVien: mã người dùng, họ tên, email, mật khẩu, học vị, chuyên môn.
+  + GiangVien: học vị, chuyên môn.
   + BaiHoc: mã bài học, tiêu đề, nội dung, thời lượng, thuộc khóa học.
   + BaiKiemTra: mã quiz, tiêu đề, số câu hỏi, thuộc bài học nào.
   + KetQua: mã kết quả, điểm, ngày làm, thuộc về học viên nào và quiz nào.
