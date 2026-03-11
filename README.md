@@ -21,11 +21,11 @@ Bài 1:
   + KetQua: mã kết quả.
   + HocVien: mã người dùng - mã học viên.
 - Khóa ngoại:
-  + GiangVien: mã khóa
-  + KhoaHoc: mã giảng viên, mã danh mục, mã học viên
+  + LichGiangDay: mã giảng viên, mã khóa
+  + KhoaHoc: mã danh mục
   + BaiHoc: mã khóa
-  + HocVien: mã khóa, mã quiz
-  + BaiKiemTra: mã học viên
+  + DangKyHoc: mã học viên, mã khóa
+  + KetQua: mã học viên, mã quiz
 Bài 2:
 - Mối quan hệ chính:
   + [GiangVien] (N) ---<dạy>--- (N) [KhoaHoc]: 1 giảng viên có thể dạy nhiều khóa học và 1 khóa học có thể có nhiều giảng viên cùng tham gia giảng dạy
